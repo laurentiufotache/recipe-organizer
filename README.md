@@ -1,5 +1,5 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[<img align="right" src="https://firstcontributions.herokuapp.com/badge.svg">](https://andbasics-challenge.slack.com/messages/C7VF1V2UC/convo/C7VF1V2UC-1515090572.000515/)
+/*[<img align="right" src="https://firstcontributions.herokuapp.com/badge.svg">](https://andbasics-challenge.slack.com/messages/C7VF1V2UC/convo/C7VF1V2UC-1515090572.000515/)*/
 
 
 
@@ -34,11 +34,12 @@ where "url you just copied" (without the quote marks) is the url to this reposit
 
 For example:
 ```
-git clone https://github.com/this-is-you/first-contributions.git
+git clone https://github.com/bytao7mao/recipe-organizer.git
 ```
 where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository in GitHub to your computer.
 
-## Create a branch
+## Create a branch  
+#### -- first step is to add yourself to contributors
 
 Change to the repository directory on your computer (if you are not already there):
 
