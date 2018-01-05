@@ -1,7 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
-
+<img align="top" width="500" src="assets/one.png" alt="copy URL to clipboard" />
+#### source of the image: http://goodtoknow.media.ipcdigital.co.uk
 
 # First Contributions for app
 ## This project's purpose is to learn by doing.
