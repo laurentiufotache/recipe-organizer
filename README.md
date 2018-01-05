@@ -3,7 +3,7 @@
 
 <img align="top" width="500" src="assets/one.jpg" alt="http://goodtoknow.media.ipcdigital.co.uk" />
 
-> source of the image: http://goodtoknow.media.ipcdigital.co.uk
+>###### source of the image: http://goodtoknow.media.ipcdigital.co.uk
 
 # First Contributions for app
 ## This project's purpose is to learn by doing.
