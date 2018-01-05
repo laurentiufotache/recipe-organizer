@@ -1,7 +1,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
-<img align="top" width="500" src="assets/one.png" alt="copy URL to clipboard" />
+<img align="top" width="500" src="assets/one.jpg" alt="http://goodtoknow.media.ipcdigital.co.uk" />
 #### source of the image: http://goodtoknow.media.ipcdigital.co.uk
 
 # First Contributions for app
