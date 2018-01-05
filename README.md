@@ -1,5 +1,5 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-/*[<img align="right" src="https://firstcontributions.herokuapp.com/badge.svg">](https://andbasics-challenge.slack.com/messages/C7VF1V2UC/convo/C7VF1V2UC-1515090572.000515/)*/
+
 
 
 
