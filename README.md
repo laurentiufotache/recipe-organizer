@@ -1,6 +1,11 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
+
+>###### Here is how the app looks right now:
+<img align="left" width="300" src="assets/app.jpg" alt="the app" />
+
+
 <img align="top" width="500" src="assets/one.jpg" alt="http://goodtoknow.media.ipcdigital.co.uk" />
 
 >###### source of the image: http://goodtoknow.media.ipcdigital.co.uk
