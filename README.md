@@ -41,7 +41,7 @@ where "url you just copied" (without the quote marks) is the url to this reposit
 
 For example:
 ```
-git clone https://github.com/bytao7mao/recipe-organizer.git
+git clone https://github.com/yourName/recipe-organizer.git
 ```
 where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository in GitHub to your computer.
 
