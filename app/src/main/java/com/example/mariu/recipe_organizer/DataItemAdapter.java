@@ -1,71 +1,90 @@
 package com.example.mariu.recipe_organizer;
-
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
-
 /**
- * Created by Mariu on 1/5/2018.
+ * Created by Mariu on 1/6/2018.
  */
 
-public class DataItemAdapter extends ArrayAdapter<DataItem> {
+public class DataItemAdapter extends RecyclerView.Adapter<DataItemAdapter.ViewHolder>{
+    public static final String ITEM_ID_KEY = "item_id_key";
+    private List<DataItem> mItems;
+    private Context mContext;
+    public static final String ITEM_KEY = "item_key";
 
-    List<DataItem> mDataItems;
-    LayoutInflater mInflater;
-
-    public DataItemAdapter(@NonNull Context context, @NonNull List<DataItem> objects) {
-        super(context, R.layout.list_item, objects);
-        mDataItems = objects;
-        mInflater = LayoutInflater.from(context);
-
+    public DataItemAdapter(Context context, List<DataItem> items) {
+        this.mContext = context;
+        this.mItems = items;
     }
 
-    @NonNull
+
     @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        if (convertView == null) {
-            convertView = mInflater.inflate(R.layout.list_item, parent, false);
-        }
+    public DataItemAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        LayoutInflater inflater = LayoutInflater.from(mContext);
+        View itemView = inflater.inflate(R.layout.list_item, parent, false);
+        ViewHolder viewHolder = new ViewHolder(itemView);
+        return viewHolder;
+    }
 
-        TextView txtName = (TextView) convertView.findViewById(R.id.itemNameText);
-        ImageView imageView = (ImageView) convertView.findViewById(R.id.imageView);
-
-        DataItem item = mDataItems.get(position);
-        txtName.setText(item.getItemName());
-        //imageView.setImageResource(R.drawable.apple_pie);
-
-
-        //here i'm getting the images from assets folder
-        InputStream inputStream = null;
+    @Override
+    public void onBindViewHolder(DataItemAdapter.ViewHolder holder, int position) {
+        final DataItem item = mItems.get(position);
         try {
+            holder.tvName.setText(item.getItemName());
             String imageFile = item.getImage();
-            inputStream = getContext().getAssets().open(imageFile);  //getAssets it's the magic :D
+            InputStream inputStream = mContext.getAssets().open(imageFile);
             Drawable d = Drawable.createFromStream(inputStream, null);
-            imageView.setImageDrawable(d);
+            holder.imageView.setImageDrawable(d);
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            try {
-                if (inputStream != null) {
-                    inputStream.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
         }
+        holder.mView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Toast.makeText(mContext, "You selected " + item.getItemName(),
+//                        Toast.LENGTH_SHORT).show();
+                //String itemId = item.getItemId();
+                Intent intent = new Intent(mContext, DetailActivity.class);
+                intent.putExtra(ITEM_KEY, item);
+                mContext.startActivity(intent);
+            }
+        });
+        holder.mView.setOnLongClickListener(new View.OnLongClickListener(){
+            @Override
+            public boolean onLongClick(View v) {
+                Toast.makeText(mContext, "You long clicked " + item.getItemName(),
+                        Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        });
+    }
 
+    @Override
+    public int getItemCount() {
+        return mItems.size();
+    }
 
-        return convertView;
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        public TextView tvName;
+        public ImageView imageView;
+        public View mView;
+        public ViewHolder(View itemView) {
+            super(itemView);
+            tvName = (TextView) itemView.findViewById(R.id.itemNameText);
+            imageView = (ImageView) itemView.findViewById(R.id.imageView);
+            mView = itemView;
+        }
     }
 }
+

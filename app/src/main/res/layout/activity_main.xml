@@ -8,10 +8,11 @@
     android:padding="16dp"
     tools:context="com.example.mariu.recipe_organizer.MainActivity">
 
-    <ListView
-        android:id="@android:id/list"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvItems"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:layoutManager="LinearLayoutManager"
 
     />
 

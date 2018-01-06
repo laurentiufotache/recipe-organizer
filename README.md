@@ -1,5 +1,5 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
+<img align="right" width="150" src="assets/hipster.jpg" alt="github hipster" />
 
 
 <p dir='rtl' align='right'>Here is how the app looks right now</p>
@@ -96,5 +96,3 @@ Now submit the pull request.
 <img style="float: right;" src="assets/submit-pull.png" alt="submit pull request" />
 
 Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
-
-<img width="300" src="assets/hipster.jpg" alt="github hipster" />
