@@ -1,6 +1,7 @@
 package com.example.mariu.recipe_organizer;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -10,6 +11,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
 /**
@@ -40,7 +43,28 @@ public class DataItemAdapter extends ArrayAdapter<DataItem> {
 
         DataItem item = mDataItems.get(position);
         txtName.setText(item.getItemName());
-        imageView.setImageResource(R.drawable.apple_pie);
+        //imageView.setImageResource(R.drawable.apple_pie);
+
+
+        //here i'm getting the images from assets folder
+        InputStream inputStream = null;
+        try {
+            String imageFile = item.getImage();
+            inputStream = getContext().getAssets().open(imageFile);  //getAssets it's the magic :D
+            Drawable d = Drawable.createFromStream(inputStream, null);
+            imageView.setImageDrawable(d);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (inputStream != null) {
+                    inputStream.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
 
         return convertView;
     }
