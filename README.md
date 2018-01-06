@@ -4,9 +4,9 @@
 
 
 <p dir='rtl' align='right'>Here is how the app looks right now</p>
-<img align="right" width="300" src="assets/app.png" alt="the app" />
+<img align="right" width="300" src="assets/app.png" alt="the app" /><br>
 <br />
-<img align="top" width="500" src="assets/one.jpg" alt="http://goodtoknow.media.ipcdigital.co.uk" />
+<br><img align="top" width="500" src="assets/one.jpg" alt="http://goodtoknow.media.ipcdigital.co.uk" />
 
 >###### source of the image: http://goodtoknow.media.ipcdigital.co.uk
 
