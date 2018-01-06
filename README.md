@@ -1,11 +1,11 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-<img align="left" width="500" src="assets/hipster.jpg" alt="github hipster" />
----
+<img align="left" width="500" src="assets/hipster.jpg" alt="github hipster" /><br>
+
 
 <p dir='rtl' align='right'>Here is how the app looks right now</p>
 <img align="right" width="300" src="assets/app.png" alt="the app" />
----
+<br />
 <img align="top" width="500" src="assets/one.jpg" alt="http://goodtoknow.media.ipcdigital.co.uk" />
 
 >###### source of the image: http://goodtoknow.media.ipcdigital.co.uk
