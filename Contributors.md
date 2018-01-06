@@ -1,4 +1,4 @@
 - [Marius Nicolae] (https://github.com/bytao7mao)
 - [Adrian Ciutacu] (https://github.com/djkeops)
-- [Paula-Diana Băcîrcea] (https://github.com/dianapaula19)
 - [Stefan Oprea] (https://github.com/stefanns)
+- [Paula-Diana Băcîrcea] (https://github.com/dianapaula19)
