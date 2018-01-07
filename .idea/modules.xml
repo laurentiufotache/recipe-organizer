@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RecipeOrganizer.iml" filepath="$PROJECT_DIR$/RecipeOrganizer.iml" />
+      <module fileurl="file://C:\Users\andre\Documents\GitHub\recipe-organizer\RecipeOrganizer.iml" filepath="C:\Users\andre\Documents\GitHub\recipe-organizer\RecipeOrganizer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\andre\Documents\GitHub\recipe-organizer\app\app.iml" filepath="C:\Users\andre\Documents\GitHub\recipe-organizer\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recipe-organizer.iml" filepath="$PROJECT_DIR$/recipe-organizer.iml" />
     </modules>
   </component>
 </project>
