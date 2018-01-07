@@ -2,6 +2,8 @@ package com.example.mariu.recipe_organizer;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
@@ -14,6 +16,8 @@ import android.widget.*;
 import android.*;
 import com.example.mariu.recipe_organizer.DataItem;
 import com.example.mariu.recipe_organizer.DataProvider;
+import com.example.mariu.recipe_organizer.database.DBHelper;
+
 import android.*;
 import java.util.Collections;
 import java.util.Comparator;
@@ -24,10 +28,16 @@ public class MainActivity extends AppCompatActivity {
    public static final String MY_GLOBAL_PREFS = "my_global_prefs";
    List<DataItem> dataItemList = DataProvider.dataItemList;
 
+   SQLiteDatabase database;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        SQLiteOpenHelper dbHelper = new DBHelper(this);
+        database = dbHelper.getWritableDatabase();
+        Toast.makeText(this, "Database aquired", Toast.LENGTH_SHORT).show();
 
 //        //sorting items A-Z
         Collections.sort(dataItemList, new Comparator<DataItem>() {
