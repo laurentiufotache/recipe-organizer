@@ -1,7 +1,5 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
-
-
+.
 
 <p dir='rtl' align='right'>Here is how the app looks right now</p>
 <img align="right" width="300" src="assets/app.png" alt="the app" /><br>
@@ -20,6 +18,8 @@ Reading articles & watching tutorials can help, but what's better than actually 
 If you don't have git on your machine, [ install it ]( https://help.github.com/articles/set-up-git/ ).
 
 ## Fork this repository
+
+<img align="right" width="300" src="assets/fork.png" alt="fork this repository" />
 
 Fork this repo by clicking on the fork button on the top of this page.
 This will create a copy of this repository in your account.
@@ -41,7 +41,7 @@ where "url you just copied" (without the quote marks) is the url to this reposit
 
 For example:
 ```
-git clone https://github.com/bytao7mao/recipe-organizer.git
+git clone https://github.com/numeleTauDePeGithub/recipe-organizer.git
 ```
 where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository in GitHub to your computer.
 

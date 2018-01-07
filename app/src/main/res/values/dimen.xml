@@ -2,4 +2,6 @@
 <resources>
     <dimen name="activity_horizontal_margin">56dp</dimen>
     <dimen name="activity_vertical_margin">56dp</dimen>
+    <dimen name="prefs_pad_right_left">64dp</dimen>
+    <dimen name="prefs_pad_top_bottom">16dp</dimen>
 </resources>
