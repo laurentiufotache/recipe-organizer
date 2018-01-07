@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:id="@+id/prefs_content"
-    android:paddingRight="@dimen/prefs_padding_top_bottom"
-    android:paddingLeft="@dimen/prefs_padding_top_bottom"
-    android:paddingTop="@dimen/prefs_padding_top_bottom"
-    android:paddingBottom="@dimen/prefs_padding_top_bottom"
+    android:paddingRight="@dimen/prefs_pad_right_left"
+    android:paddingLeft="@dimen/prefs_pad_right_left"
+    android:paddingTop="@dimen/prefs_pad_top_bottom"
+    android:paddingBottom="@dimen/prefs_pad_top_bottom"
     tools:context=".PrefsActivity"
 />
