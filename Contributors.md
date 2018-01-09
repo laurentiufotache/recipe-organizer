@@ -3,4 +3,6 @@
 - [Paula-Diana Băcîrcea] (https://github.com/dianapaula19)
 - [Andrei Moisoiu] (https://github.com/andreimoisoiu)
 - [Dorobantu Claudia] (https://github.com/ClaudiaD91)
+- [Rares Serban] (https://github.com/rareserban)
 - [Aida Dolea] (https://github.com/AidaDolea)
+
