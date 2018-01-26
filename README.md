@@ -2,7 +2,7 @@
 .
 
 <p dir='rtl' align='right'>Here is how the app looks right now</p>
-<img align="right" width="300" src="assets/app.png" alt="the app" /><br>
+<img align="left" width="300" src="assets/appnew.png" alt="the app" /><br>
 <br />
 <img align="right" width="300" src="assets/app2.png" alt="the app" /><br>
 <br />
