@@ -1,10 +1,15 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-.
+[![Build status](https://ci.appveyor.com/api/projects/status/pjxh5g91jpbh7t84?svg=true)](https://ci.appveyor.com/project/tygerbytes/resourcefitness)
+[![Coveralls](https://coveralls.io/repos/github/tygerbytes/ResourceFitness/badge.svg?branch=master)](https://coveralls.io/github/tygerbytes/ResourceFitness?branch=master)
 
-<p dir='rtl' align='right'>Here is how the app looks right now</p>
-<img align="right" width="300" src="assets/app.png" alt="the app" /><br>
-<br />
-<br><img align="top" width="500" src="assets/one.jpg" alt="http://goodtoknow.media.ipcdigital.co.uk" />
+<p dir='rtl' align='left'>Here is how the app looks right now</p><p dir='rtl' align='right'>And the view on item</p>
+<img align="left" width="300" src="assets/app2.png" alt="the app" />
+<img align="left" width="300" src="assets/appnew.png" alt="the app" />
+
+<img align="top" width="500" src="assets/one.jpg" alt="http://goodtoknow.media.ipcdigital.co.uk" />
+
+
+
 
 >###### source of the image: http://goodtoknow.media.ipcdigital.co.uk
 
